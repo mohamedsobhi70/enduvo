@@ -592,8 +592,8 @@ video {
   position: sticky;
 }
 
-.-bottom-16 {
-  bottom: -4rem;
+.-bottom-52 {
+  bottom: -13rem;
 }
 
 .-left-60 {
@@ -622,14 +622,6 @@ video {
 
 .top-40 {
   top: 10rem;
-}
-
-.-bottom-5 {
-  bottom: -1.25rem;
-}
-
-.-bottom-52 {
-  bottom: -13rem;
 }
 
 .z-40 {
@@ -686,10 +678,6 @@ video {
   height: 174px;
 }
 
-.h-\[500px\] {
-  height: 500px;
-}
-
 .h-\[540px\] {
   height: 540px;
 }
@@ -740,53 +728,6 @@ video {
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-spin {
-  animation: spin 1s linear infinite;
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-.animate-bounce {
-  animation: bounce 1s infinite;
-}
-
-@keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-.animate-ping {
-  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-}
-
-@keyframes pulse {
-  50% {
-    opacity: .5;
-  }
-}
-
-.animate-pulse {
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 .grid-cols-12 {
@@ -1088,34 +1029,6 @@ video {
   --tw-shadow: 0px -0.59851px 3.59106px 0px rgba(0, 0, 0, 0.03), 0px -2.01027px 12.06161px 0px rgba(0, 0, 0, 0.04), 0px -9px 54px 0px rgba(0, 0, 0, 0.07);
   --tw-shadow-colored: 0px -0.59851px 3.59106px 0px var(--tw-shadow-color), 0px -2.01027px 12.06161px 0px var(--tw-shadow-color), 0px -9px 54px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.duration-1000 {
-  transition-duration: 1000ms;
-}
-
-.duration-\[\] {
-  transition-duration: ;
-}
-
-.duration-\[300\] {
-  transition-duration: 300;
-}
-
-.duration-\[3000ms\] {
-  transition-duration: 3000ms;
-}
-
-.duration-\[3000\] {
-  transition-duration: 3000;
-}
-
-.duration-\[2000ms\] {
-  transition-duration: 2000ms;
-}
-
-.duration-\[31000ms\] {
-  transition-duration: 31000ms;
 }
 
 body {

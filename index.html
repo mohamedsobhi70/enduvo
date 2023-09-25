@@ -48,21 +48,27 @@
                     </button>
                 </header>
 
-                <div class="rounded-3xl overflow-hidden relative h-[500px]">
-                    <div
-                        class="absolute top-0 w-full h-full  left-0 bg-hero-vid-gradient flex items-center justify-center">
-                        <button>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="57" height="68" viewBox="0 0 57 68"
-                                fill="none">
-                                <path
-                                    d="M53.1456 27.216C58.159 30.3494 58.159 37.6507 53.1456 40.784L12.24 66.35C6.9116 69.6803 3.29108e-07 65.8495 5.82827e-07 59.566L2.64748e-06 8.43398C2.9012e-06 2.1505 6.91161 -1.68024 12.24 1.65L53.1456 27.216Z"
-                                    fill="white" />
-                            </svg>
-                            <span class="sr-only">Play Icon</span>
-                        </button>
+                <div class="rounded-3xl overflow-hidden relative">
+                    <video preload="auto" controls>
+                        <source src="assets/images/herovid.mp4"  type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="play-overlay">
+                        <img src="assets/images/herovid.png" class="absolute top-0 left-0 w-full h-full object-cover"
+                            width="" height="" alt="sd">
+                        <div
+                            class="absolute w-full h-full top-0 left-0 bg-hero-vid-gradient flex justify-center items-center">
+                            <button type="button" aria-label="play Video" class="play-vid relative">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="57" height="68" viewBox="0 0 57 68"
+                                    fill="none">
+                                    <path
+                                        d="M53.1456 27.216C58.159 30.3494 58.159 37.6507 53.1456 40.784L12.24 66.35C6.9116 69.6803 3.29108e-07 65.8495 5.82827e-07 59.566L2.64748e-06 8.43398C2.9012e-06 2.1505 6.91161 -1.68024 12.24 1.65L53.1456 27.216Z"
+                                        fill="white" />
+                                </svg>
+                                <span class="sr-only">Play Icon</span>
+                            </button>
+                        </div>
                     </div>
-                    <img src="assets/images/herovid.png" class="w-full h-full object-cover" width="" height=""
-                        alt="video">
                 </div>
 
                 <img src="assets/images/shap-1.png" width="324" height="243" class="absolute -top-10 -right-64"
@@ -383,6 +389,7 @@
                 </div>
             </div>
         </section>
+
     </main>
     <!-- End Main Page Content  -->
     <!-- =========================================================== -->

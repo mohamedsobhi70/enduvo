@@ -48,4 +48,16 @@ $(window).on("load", function () {
             });
         })
     }
+
+
+    // ===================================================== 
+    if ($(".play-overlay").length > 0) {
+        $(".play-overlay button").on("click", function () {
+            let vid = $(this).closest(".play-overlay").siblings("video");
+            console.log(vid);
+            $(this).closest(".play-overlay").addClass("hidden")
+            vid.trigger('play');
+            vid.attr('controls', "true");
+        })
+    }
 });
