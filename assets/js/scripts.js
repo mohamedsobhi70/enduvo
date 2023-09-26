@@ -54,10 +54,22 @@ $(window).on("load", function () {
     if ($(".play-overlay").length > 0) {
         $(".play-overlay button").on("click", function () {
             let vid = $(this).closest(".play-overlay").siblings("video");
-            console.log(vid);
             $(this).closest(".play-overlay").addClass("hidden")
             vid.trigger('play');
             vid.attr('controls', "true");
+        })
+    }
+
+
+    // ===================================================== 
+    if ($(".popup").length > 0) {
+        $(".popup-btn").on("click", function () {
+            $(".popup").addClass("active")
+        })
+        $(".popup-close-btn").on("click", function () {
+            $(".popup").removeClass("active")
+            let vid = $(".popup video");
+            vid.trigger('pause');
         })
     }
 });
