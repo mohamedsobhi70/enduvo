@@ -20,7 +20,7 @@
     <header class="bg-white dark:bg-cool-gray-800 shadow-header-shad sticky top-0 z-40">
         <div class="container py-6 px-5 lg:px-0 flex items-center justify-between">
             <a href="index.html" class="-my-3">
-                <img src="assets/images/Logo.png" width="150" height="72" alt="LOGO">
+                <img src="assets/images/Logo.png" class="w-[120px] lg:w-[150px]" width="150" height="72" alt="LOGO">
                 <span class="sr-only">Logo</span>
             </a>
             <a href="#" class="secondary-btn">
@@ -35,12 +35,12 @@
     <main>
 
         <!-- Hero Section  -->
-        <section class="pt-24 pb-16">
-            <div class="container flex flex-col gap-12 relative">
+        <section class="py-12 lg:pt-24 lg:pb-16">
+            <div class="container flex flex-col gap-10 lg:gap-12 relative">
 
-                <header class=" flex flex-col items-center gap-6">
+                <header class=" flex flex-col items-center gap-6 px-6 lg:px-0">
                     <h1
-                        class="text-center text-[64px] leading-tight text-cool-gray-900 dark:text-cool-gray-50 font-light">
+                        class="text-center text-4xl lg:text-[64px] leading-normal lg:leading-tight text-cool-gray-900 dark:text-cool-gray-50 font-light">
                         Create your reality,<br>
                         Share your expertise!
                     </h1>
@@ -49,7 +49,7 @@
                     </button>
                 </header>
 
-                <div class="rounded-3xl overflow-hidden relative">
+                <div class="lg:rounded-3xl overflow-hidden relative">
                     <video preload="auto" controls>
                         <source src="assets/images/herovid.mp4" type="video/mp4">
                         Your browser does not support the video tag.
@@ -60,8 +60,8 @@
                         <div
                             class="absolute w-full h-full top-0 left-0 bg-hero-vid-gradient flex justify-center items-center">
                             <button type="button" aria-label="play Video" class="play-vid relative">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="57" height="68" viewBox="0 0 57 68"
-                                    fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 lg:w-14" width="57" height="68"
+                                    viewBox="0 0 57 68" fill="none">
                                     <path
                                         d="M53.1456 27.216C58.159 30.3494 58.159 37.6507 53.1456 40.784L12.24 66.35C6.9116 69.6803 3.29108e-07 65.8495 5.82827e-07 59.566L2.64748e-06 8.43398C2.9012e-06 2.1505 6.91161 -1.68024 12.24 1.65L53.1456 27.216Z"
                                         fill="white" />
@@ -82,14 +82,14 @@
         </section>
 
 
-        <section class="py-24">
+        <section class="py-12 lg:py-24 px-6 lg:px-0">
             <div class="container flex flex-col gap-8 items-center">
-                <header class="flex flex-col gap-5 items-center">
+                <header class="flex flex-col gap-4 lg:gap-5 items-center">
                     <h2
-                        class="w-2/3 text-center text-4xl -tracking-[0.72px] leading-tight text-cool-gray-900 dark:text-cool-gray-50 font-light">
+                        class="lg:w-2/3 text-center text-[28px] lg:text-4xl lg:-tracking-[0.72px] leading-tight lg:leading-tight text-cool-gray-900 dark:text-cool-gray-50 font-light">
                         Have you ever wondered if there’s a better way to share your knowledge?
                     </h2>
-                    <p class="w-9/12 text-center text-cool-gray-700 dark:text-cool-gray-400 text-lg leading-normal">
+                    <p class="lg:w-9/12 text-center text-cool-gray-700 dark:text-cool-gray-400 lg:text-lg leading-normal lg:leading-normal">
                         With Enduvo. Your knowledge is not just passed on, but deeply experienced. Take your insights,
                         experiences, and stories, and make them interactive.
                     </p>
@@ -100,14 +100,15 @@
         </section>
 
 
-        <section class="py-16">
+        <section class="py-12 lg:py-16 px-6 lg:px-0">
             <div class="container flex flex-col gap-16">
-                <div class="grid grid-cols-12 gap-8 items-center">
-                    <div class="col-span-7 flex flex-col gap-4">
-                        <h2 class="text-4xl text-cool-gray-900 dark:text-cool-gray-50 font-light">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-7 flex flex-col gap-4">
+                        <h2
+                            class="text-[28px] lg:text-4xl leading-tight lg:leading-tight text-cool-gray-900 dark:text-cool-gray-50 font-light">
                             Quick Start, Deep Dive
                         </h2>
-                        <p class="text-cool-gray-700 dark:text-cool-gray-400 text-lg leading-normal">
+                        <p class="text-cool-gray-700 dark:text-cool-gray-400 lg:text-lg leading-normal lg:leading-normal">
                             Tired of the old slide-click-slide routine? Curious about what the next level of engagement
                             looks like? Start with what you know - your existing content. And within minutes, watch it
                             transform into immersive training. Pictures, videos, 3D models, scans – throw in all your
@@ -115,7 +116,7 @@
                             adapt and modify without starting from scratch.
                         </p>
                     </div>
-                    <div class="col-span-5 flex flex-col relative">
+                    <div class="lg:col-span-5 flex flex-col relative">
                         <div
                             class="bg-cool-gray-200 dark:bg-cool-gray-700 w-[309px] h-[174px] rounded-lg flex items-center justify-center ms-9">
                             <img src="assets/images/powerpoint.svg" width="35" height="32" alt="powerpoint">
@@ -128,13 +129,13 @@
                             class="bg-cool-gray-400 dark:bg-cool-gray-700 w-[309px] h-[174px] rounded-lg flex items-center justify-center -mt-20">
                             <img src="assets/images/powerpoint.svg" width="35" height="32" alt="powerpoint">
                         </div>
-                        <img src="assets/images/line-shap.svg" class="absolute top-[90%] start-[-100px]" width="124"
+                        <img src="assets/images/line-shap.svg" class="absolute top-full lg:top-[90%] start-1/2 -translate-x-1/2 lg:translate-x-0 lg:start-[-100px]" width="124"
                             height="87" alt="line-shap">
                     </div>
                 </div>
 
                 <div
-                    class="h-[810px] bg-[#9CA3AF] dark:bg-cool-gray-700 border-8 border-cool-gray-900 dark:border-cool-gray-400 rounded-xl flex items-center justify-center">
+                    class="h-[410px] lg:h-[810px] bg-[#9CA3AF] dark:bg-cool-gray-700 border-8 border-cool-gray-900 dark:border-cool-gray-400 rounded-xl flex items-center justify-center">
                     <span class="text-cool-gray-500 font-semibold text-4xl leading-normal uppercase">
                         Experience View
                     </span>
@@ -144,13 +145,14 @@
         </section>
 
 
-        <section class="bg-cool-gray-900 dark:bg-cool-gray-800 py-24 -mt-32 relative">
-            <div class="container flex flex-col gap-10 items-center">
-                <div class="flex flex-col gap-5 items-center w-2/3">
-                    <h2 class="text-center text-4xl -tracking-[0.72px] leading-tight text-cool-gray-50 font-light">
+        <section class="bg-cool-gray-900 dark:bg-cool-gray-800 py-12 lg:py-24 -mt-32 relative px-6 lg:px-0">
+            <div class="container flex flex-col gap-8 lg:gap-10 items-center">
+                <div class="flex flex-col gap-4 lg:gap-5 items-center lg:w-2/3">
+                    <h2
+                        class="text-center text-[28px] lg:text-4xl lg:-tracking-[0.72px] leading-tight lg:leading-tight text-cool-gray-50 font-light">
                         For Everyone and Everywhere
                     </h2>
-                    <p class="text-center text-cool-gray-400 text-lg leading-normal">
+                    <p class="text-center text-cool-gray-400 lg:text-lg leading-normal lg:leading-normal">
                         It doesn’t matter if you’re training a small team or reaching out to a global audience. With
                         Enduvo,
                         you focus on sharing your expertise. Let us handle the heavy tech lifting.
@@ -164,14 +166,14 @@
         </section>
 
 
-        <section class="py-24 overflow-hidden">
+        <section class="py-12 lg:py-24 overflow-hidden">
             <div class="container flex flex-col gap-16">
-                <div class="flex gap-8 items-center">
-                    <div class="basis-7/12 shrink-0 flex flex-col gap-4">
+                <div class="flex flex-col lg:flex-row gap-8 items-center">
+                    <div class="lg:basis-7/12 shrink-0 flex flex-col gap-4 px-6 lg:px-0">
                         <h2 class="text-4xl text-cool-gray-900 dark:text-cool-gray-50 font-light">
                             Learning through Collaboration
                         </h2>
-                        <p class="text-cool-gray-700 dark:text-cool-gray-400 text-lg leading-normal font-light">
+                        <p class="text-cool-gray-700 dark:text-cool-gray-400 lg:text-lg leading-normal lg:leading-normal font-light">
                             We’re creators, just like you. And we’re proud to be working with the best out there: The
                             United States Air Force, Boeing, NIH and The Grainger College of Engineering and the College
                             of Medicine at The University of Illinois. As the world shifts and reshapes, we’re here,
@@ -180,15 +182,15 @@
                             about building a reliable future together.
                         </p>
                     </div>
-                    <div class="shrink-0 w-full flex flex-col ">
+                    <div class="shrink-0 w-full flex flex-col">
                         <div class="designpeer-slider-wrapper swiper designpeer-swiper w-full flex flex-col gap-6 lg:gap-8 relative"
-                            data-items-desktop="auto" data-items-tablet="auto" data-items-mobile="auto"
+                            data-items-desktop="auto" data-items-tablet="2" data-items-mobile="1"
                             data-freemode="false" data-loop="true" data-autoplay-speed="5000" data-space-desktop="24"
                             data-space-tablet="24" data-space-mobile="24" id="slider-1">
                             <div class="swiper-wrapper items-center">
                                 <!-- Slides -->
                                 <div
-                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden w-[469px] h-[540px] bg-[url(../images/slider-1.png)] bg-cover flex flex-col justify-between">
+                                    class="swiper-slide relative p-8 lg:rounded-2xl overflow-hidden lg:w-[469px] h-[300px] lg:h-[540px] bg-[url(../images/slider-1.png)] bg-cover flex flex-col justify-between">
                                     <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
                                     <div class="flex justify-end relative">
                                         <button class="popup-btn">
@@ -202,12 +204,12 @@
                                         </button>
                                     </div>
                                     <a href="#"
-                                        class="relative text-white text-[32px] leading-normal font-semibold -tracking-[0.64px] font-Plus">
+                                        class="relative text-white trxt-[28px] lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
                                         Nebula Nexus Galactic Collisions VR
                                     </a>
                                 </div>
                                 <div
-                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden w-[469px] h-[540px] bg-[url(../images/slider-2.png)] bg-cover flex flex-col justify-between">
+                                    class="swiper-slide relative p-8 lg:rounded-2xl overflow-hidden lg:w-[469px] h-[300px] lg:h-[540px] bg-[url(../images/slider-2.png)] bg-cover flex flex-col justify-between">
                                     <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
                                     <div class="flex justify-end relative">
                                         <button class="popup-btn">
@@ -221,12 +223,12 @@
                                         </button>
                                     </div>
                                     <a href="#"
-                                        class="relative text-white text-[32px] leading-normal font-semibold -tracking-[0.64px] font-Plus">
+                                        class="relative text-white trxt-[28px] lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
                                         Nebula Nexus Galactic Collisions VR
                                     </a>
                                 </div>
                                 <div
-                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden w-[469px] h-[540px] bg-[url(../images/slider-3.png)] bg-cover flex flex-col justify-between">
+                                    class="swiper-slide relative p-8 lg:rounded-2xl overflow-hidden lg:w-[469px] h-[300px] lg:h-[540px] bg-[url(../images/slider-3.png)] bg-cover flex flex-col justify-between">
                                     <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
                                     <div class="flex justify-end relative">
                                         <button class="popup-btn">
@@ -240,12 +242,12 @@
                                         </button>
                                     </div>
                                     <a href="#"
-                                        class="relative text-white text-[32px] leading-normal font-semibold -tracking-[0.64px] font-Plus">
+                                        class="relative text-white trxt-[28px] lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
                                         Nebula Nexus Galactic Collisions VR
                                     </a>
                                 </div>
                                 <div
-                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden w-[469px] h-[540px] bg-[url(../images/slider-1.png)] bg-cover flex flex-col justify-between">
+                                    class="swiper-slide relative p-8 lg:rounded-2xl overflow-hidden lg:w-[469px] h-[300px] lg:h-[540px] bg-[url(../images/slider-1.png)] bg-cover flex flex-col justify-between">
                                     <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
                                     <div class="flex justify-end relative">
                                         <button class="popup-btn">
@@ -259,12 +261,12 @@
                                         </button>
                                     </div>
                                     <a href="#"
-                                        class="relative text-white text-[32px] leading-normal font-semibold -tracking-[0.64px] font-Plus">
+                                        class="relative text-white trxt-[28px] lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
                                         Nebula Nexus Galactic Collisions VR
                                     </a>
                                 </div>
                                 <div
-                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden w-[469px] h-[540px] bg-[url(../images/slider-2.png)] bg-cover flex flex-col justify-between">
+                                    class="swiper-slide relative p-8 lg:rounded-2xl overflow-hidden lg:w-[469px] h-[300px] lg:h-[540px] bg-[url(../images/slider-2.png)] bg-cover flex flex-col justify-between">
                                     <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
                                     <div class="flex justify-end relative">
                                         <button class="popup-btn">
@@ -278,12 +280,12 @@
                                         </button>
                                     </div>
                                     <a href="#"
-                                        class="relative text-white text-[32px] leading-normal font-semibold -tracking-[0.64px] font-Plus">
+                                        class="relative text-white trxt-[28px] lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
                                         Nebula Nexus Galactic Collisions VR
                                     </a>
                                 </div>
                                 <div
-                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden w-[469px] h-[540px] bg-[url(../images/slider-3.png)] bg-cover flex flex-col justify-between">
+                                    class="swiper-slide relative p-8 lg:rounded-2xl overflow-hidden lg:w-[469px] h-[300px] lg:h-[540px] bg-[url(../images/slider-3.png)] bg-cover flex flex-col justify-between">
                                     <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
                                     <div class="flex justify-end relative">
                                         <button class="popup-btn">
@@ -297,13 +299,13 @@
                                         </button>
                                     </div>
                                     <a href="#"
-                                        class="relative text-white text-[32px] leading-normal font-semibold -tracking-[0.64px] font-Plus">
+                                        class="relative text-white trxt-[28px] lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
                                         Nebula Nexus Galactic Collisions VR
                                     </a>
                                 </div>
                             </div>
                             <div
-                                class="flex items-center bg-white drop-shadow-md rounded-full w-fit py-6 px-3.5 absolute top-1/2 -translate-y-1/2 z-10 start-[445px]">
+                                class="flex items-center bg-white drop-shadow-md rounded-full w-fit py-6 px-3.5 lg:absolute top-1/2 mx-auto lg:mx-0 lg:-translate-y-1/2 z-10 start-[445px]">
                                 <div class="designpeer-slide-prev">
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -331,7 +333,7 @@
 
 
         <!-- Partners Section  -->
-        <section class="py-16">
+        <section class="py-12 lg:py-16 px-6 lg:px-0">
             <div class="container flex flex-wrap gap-6 justify-center">
                 <div class="w-[202px] h-[112px] flex items-center justify-center rounded-xl bg-cool-gray-50 group">
                     <img src="assets/images/partners-1.png" class="mix-blend-luminosity group-hover:mix-blend-normal"
@@ -367,15 +369,15 @@
         <!-- =========================================================== -->
 
 
-        <section class="pt-24 -mb-40">
+        <section class="pt-24 -mb-8 lg:-mb-40 px-6 lg:px-0">
             <div class="container flex flex-col gap-16">
                 <div class="flex flex-col items-center gap-8">
                     <div class="flex flex-col items-center gap-5">
                         <h2
-                            class="w-2/3 text-center text-4xl -tracking-[0.72px] leading-tight text-cool-gray-900 dark:text-cool-gray-50 font-light">
+                            class="lg:w-2/3 text-center text-[28px] text-4xl lg:-tracking-[0.72px] leading-tight lg:leading-tight text-cool-gray-900 dark:text-cool-gray-50 font-light">
                             Curious about the next chapter in training? Let’s explore together.
                         </h2>
-                        <p class="w-9/12 text-center text-cool-gray-700 dark:text-cool-gray-400 text-lg leading-normal">
+                        <p class="lg:w-9/12 text-center text-cool-gray-700 dark:text-cool-gray-400 lg:text-lg leading-normal lg:leading-normal">
                             Schedule a chat and live demo with us.
                         </p>
                     </div>
@@ -384,7 +386,7 @@
                     </button>
                 </div>
                 <div
-                    class="h-[610px] bg-[#9CA3AF] border-8 border-cool-gray-900 dark:border-[#98A2B3] rounded-xl overflow-hidden flex items-center justify-center">
+                    class="h-[220px] lg:h-[610px] bg-[#9CA3AF] border-8 border-cool-gray-900 dark:border-[#98A2B3] rounded-xl overflow-hidden flex items-center justify-center">
                     <img src="assets/images/img-1.png" class="w-full object-cover " width="1920" height="1080"
                         alt="vid">
                 </div>
@@ -393,7 +395,7 @@
 
         <div class="popup ">
 
-            <button type="button" class="popup-close-btn absolute lg:top-20 lg:end-20">
+            <button type="button" class="popup-close-btn absolute top-12 end-12 lg:top-20 lg:end-20">
                 <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8 15L24.9706 31.9706" stroke="white" stroke-width="2" stroke-linecap="round"></path>
                     <path d="M7.51562 31.4505L24.4862 14.4799" stroke="white" stroke-width="2" stroke-linecap="round">
@@ -431,9 +433,9 @@
     <!-- =========================================================== -->
 
 
-    <footer class="py-16 relative bg-white dark:bg-cool-gray-900">
+    <footer class="py-10 lg:py-16 relative bg-white dark:bg-cool-gray-900">
         <div class="container flex flex-col gap-6">
-            <div class="flex items-center justify-between">
+            <div class="flex flex-col lg:flex-row gap-2 items-center justify-between">
                 <img src="assets/images/Logo.png" width="110" height="53" alt="LOGO">
 
                 <div class="flex items-center gap-6">
@@ -537,7 +539,7 @@
                 </div>
             </div>
 
-            <div class="flex items-center justify-between">
+            <div class="flex flex-col lg:flex-row gap-2 items-center justify-between">
                 <p class="text-cool-gray-500 text-sm leading-normal">
                     ©️ 2023 Enduvo
                 </p>

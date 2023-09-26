@@ -13,12 +13,10 @@ $(window).on("load", function () {
                 $items_mobile = ($this.data("items-mobile") !== undefined) ? $this.data("items-mobile") : 1,
                 $auto_speed = ($this.data("autoplay-speed") !== undefined) ? $this.data("autoplay-speed") : 500000,
                 $loop = ($this.data("loop") !== undefined) ? true : false,
-                $free = ($this.data("freemode") !== undefined) ? true : false,
                 $center = ($this.data("centered") !== undefined) ? true : false;
             let swiper = new Swiper("#" + $thisID, {
                 loop: $loop,
                 centeredSlides: $center,
-                freeMode: $free,
                 autoplay: {
                     delay: $auto_speed,
                     disableOnInteraction: true,
