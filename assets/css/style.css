@@ -666,6 +666,11 @@ video {
   margin-right: auto;
 }
 
+.-mx-6 {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
 .-mb-40 {
   margin-bottom: -10rem;
 }
@@ -872,6 +877,10 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .border-8 {
