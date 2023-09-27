@@ -70,4 +70,13 @@ $(window).on("load", function () {
             vid.trigger('pause');
         })
     }
+
+    if ($(".demo-popup").length > 0) {
+        $(".demo-popup-btn").on("click", function () {
+            $(".demo-popup").addClass("active")
+        })
+        $(".demo-popup-close-btn").on("click", function () {
+            $(".demo-popup").removeClass("active")
+        })
+    }
 });

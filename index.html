@@ -23,9 +23,9 @@
                 <img src="assets/images/Logo.png" class="w-[120px] lg:w-[150px]" width="150" height="72" alt="LOGO">
                 <span class="sr-only">Logo</span>
             </a>
-            <a href="#" class="secondary-btn">
+            <button class="secondary-btn demo-popup-btn">
                 Schedule a demo
-            </a>
+            </button>
         </div>
     </header>
     <!-- End Header  -->
@@ -44,7 +44,7 @@
                         Create your reality,<br>
                         Share your expertise!
                     </h1>
-                    <button class="primary-btn">
+                    <button class="primary-btn demo-popup-btn">
                         Schedule a demo
                     </button>
                 </header>
@@ -120,15 +120,15 @@
                     </div>
                     <div class="lg:col-span-5 flex flex-col relative">
                         <div
-                            class="bg-cool-gray-200 dark:bg-cool-gray-700 w-[309px] h-[174px] rounded-lg flex items-center justify-center ms-9">
+                            class="bg-cool-gray-200 dark:bg-cool-gray-700 w-56 md:w-[309px] h-32 md:h-44 rounded-lg flex items-center justify-center ms-9">
                             <img src="assets/images/powerpoint.svg" width="35" height="32" alt="powerpoint">
                         </div>
                         <div
-                            class="bg-cool-gray-300 dark:bg-cool-gray-800 w-[309px] h-[174px] rounded-lg flex items-center justify-center ms-auto -mt-20">
+                            class="bg-cool-gray-300 dark:bg-cool-gray-800 w-56 md:w-[309px] h-32 md:h-44 rounded-lg flex items-center justify-center ms-auto -mt-12 lg:-mt-20">
                             <img src="assets/images/powerpoint.svg" width="35" height="32" alt="powerpoint">
                         </div>
                         <div
-                            class="bg-cool-gray-400 dark:bg-cool-gray-700 w-[309px] h-[174px] rounded-lg flex items-center justify-center -mt-20">
+                            class="bg-cool-gray-400 dark:bg-cool-gray-700 w-56 md:w-[309px] h-32 md:h-44 rounded-lg flex items-center justify-center -mt-12 lg:-mt-20">
                             <img src="assets/images/powerpoint.svg" width="35" height="32" alt="powerpoint">
                         </div>
                         <img src="assets/images/line-shap.svg"
@@ -138,8 +138,8 @@
                 </div>
 
                 <div
-                    class="h-[410px] lg:h-[810px] bg-[#9CA3AF] dark:bg-cool-gray-700 border-8 border-cool-gray-900 dark:border-cool-gray-400 rounded-xl flex items-center justify-center">
-                    <span class="text-cool-gray-500 font-semibold text-4xl leading-normal uppercase">
+                    class="h-[230px] lg:h-[810px] bg-[#9CA3AF] dark:bg-cool-gray-700 border-8 border-cool-gray-900 dark:border-cool-gray-400 rounded-xl flex items-center justify-center">
+                    <span class="hidden lg:block text-cool-gray-500 font-semibold text-4xl leading-normal uppercase">
                         Experience View
                     </span>
 
@@ -148,8 +148,9 @@
         </section>
 
 
-        <section class="bg-cool-gray-900 dark:bg-cool-gray-800 py-12 lg:py-24 -mt-32 relative px-6 lg:px-0">
-            <div class="container flex flex-col gap-8 lg:gap-10 items-center">
+        <!-- For Everyone and Everywhere -->
+        <section class="bg-cool-gray-900 dark:bg-cool-gray-800 py-12 lg:py-24 -mt-16 lg:-mt-32 relative px-6 lg:px-0">
+            <div class="container flex flex-col gap-10 items-center">
                 <div class="flex flex-col gap-4 lg:gap-5 items-center lg:w-2/3">
                     <h2
                         class="text-center text-[28px] lg:text-4xl lg:-tracking-[0.72px] leading-tight lg:leading-tight text-cool-gray-50 font-light">
@@ -162,18 +163,19 @@
                     </p>
 
                 </div>
-                <button class="primary-btn">
+                <button class="primary-btn demo-popup-btn">
                     Schedule a demo
                 </button>
             </div>
         </section>
 
 
+        <!-- Learning through Collaboration -->
         <section class="py-12 lg:py-24 overflow-hidden">
             <div class="container flex flex-col gap-16">
                 <div class="flex flex-col lg:flex-row gap-8 items-center">
-                    <div class="lg:basis-7/12 shrink-0 flex flex-col gap-4 px-6 lg:px-0">
-                        <h2 class="text-4xl text-cool-gray-900 dark:text-cool-gray-50 font-light">
+                    <div class="lg:basis-7/12 lg:shrink-0 flex flex-col gap-4 px-6 lg:px-0">
+                        <h2 class="text-[28px] lg:text-4xl text-cool-gray-900 dark:text-cool-gray-50 font-light">
                             Learning through Collaboration
                         </h2>
                         <p
@@ -186,7 +188,7 @@
                             about building a reliable future together.
                         </p>
                     </div>
-                    <div class="shrink-0 w-full flex flex-col -mx-6">
+                    <div class="lg:shrink-0 w-full flex flex-col -mx-6">
                         <div class="designpeer-slider-wrapper swiper designpeer-swiper w-full flex flex-col gap-6 lg:gap-8 relative px-6 lg:px-0"
                             data-items-desktop="auto" data-items-tablet="2" data-items-mobile="1" data-freemode="false"
                             data-loop="true" data-autoplay-speed="5000" data-space-desktop="24" data-space-tablet="24"
@@ -194,9 +196,9 @@
                             <div class="swiper-wrapper items-center">
                                 <!-- Slides -->
                                 <div
-                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden lg:w-[469px] h-[300px] lg:h-[540px] bg-[url(../images/slider-1.png)] bg-cover flex flex-col justify-between">
-                                    <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
-                                    <div class="flex justify-end relative">
+                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden lg:w-[469px] h-[260px] lg:h-[360px] bg-[url(../images/slider-1.png)] bg-cover flex flex-col items-center gap-6 justify-end">
+                                    <div
+                                        class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30 flex items-center justify-center">
                                         <button class="popup-btn">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="42"
                                                 viewBox="0 0 35 42" fill="none">
@@ -207,15 +209,16 @@
                                             <span class="sr-only">Play Icon</span>
                                         </button>
                                     </div>
-                                    <a href="#"
-                                        class="relative text-white trxt-[28px] lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
+
+                                    <h3
+                                        class="text-center relative text-white text-2xl lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
                                         Nebula Nexus Galactic Collisions VR
-                                    </a>
+                                    </h3>
                                 </div>
                                 <div
-                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden lg:w-[469px] h-[300px] lg:h-[540px] bg-[url(../images/slider-2.png)] bg-cover flex flex-col justify-between">
-                                    <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
-                                    <div class="flex justify-end relative">
+                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden lg:w-[469px] h-[260px] lg:h-[360px] bg-[url(../images/slider-2.png)] bg-cover flex flex-col items-center gap-6 justify-end">
+                                    <div
+                                        class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30 flex items-center justify-center">
                                         <button class="popup-btn">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="42"
                                                 viewBox="0 0 35 42" fill="none">
@@ -226,15 +229,16 @@
                                             <span class="sr-only">Play Icon</span>
                                         </button>
                                     </div>
-                                    <a href="#"
-                                        class="relative text-white trxt-[28px] lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
+
+                                    <h3
+                                        class="text-center relative text-white text-2xl lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
                                         Nebula Nexus Galactic Collisions VR
-                                    </a>
+                                    </h3>
                                 </div>
                                 <div
-                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden lg:w-[469px] h-[300px] lg:h-[540px] bg-[url(../images/slider-3.png)] bg-cover flex flex-col justify-between">
-                                    <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
-                                    <div class="flex justify-end relative">
+                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden lg:w-[469px] h-[260px] lg:h-[360px] bg-[url(../images/slider-3.png)] bg-cover flex flex-col items-center gap-6 justify-end">
+                                    <div
+                                        class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30 flex items-center justify-center">
                                         <button class="popup-btn">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="42"
                                                 viewBox="0 0 35 42" fill="none">
@@ -245,15 +249,16 @@
                                             <span class="sr-only">Play Icon</span>
                                         </button>
                                     </div>
-                                    <a href="#"
-                                        class="relative text-white trxt-[28px] lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
+
+                                    <h3
+                                        class="text-center relative text-white text-2xl lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
                                         Nebula Nexus Galactic Collisions VR
-                                    </a>
+                                    </h3>
                                 </div>
                                 <div
-                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden lg:w-[469px] h-[300px] lg:h-[540px] bg-[url(../images/slider-1.png)] bg-cover flex flex-col justify-between">
-                                    <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
-                                    <div class="flex justify-end relative">
+                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden lg:w-[469px] h-[260px] lg:h-[360px] bg-[url(../images/slider-1.png)] bg-cover flex flex-col items-center gap-6 justify-end">
+                                    <div
+                                        class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30 flex items-center justify-center">
                                         <button class="popup-btn">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="42"
                                                 viewBox="0 0 35 42" fill="none">
@@ -264,15 +269,16 @@
                                             <span class="sr-only">Play Icon</span>
                                         </button>
                                     </div>
-                                    <a href="#"
-                                        class="relative text-white trxt-[28px] lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
+
+                                    <h3
+                                        class="text-center relative text-white text-2xl lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
                                         Nebula Nexus Galactic Collisions VR
-                                    </a>
+                                    </h3>
                                 </div>
                                 <div
-                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden lg:w-[469px] h-[300px] lg:h-[540px] bg-[url(../images/slider-2.png)] bg-cover flex flex-col justify-between">
-                                    <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
-                                    <div class="flex justify-end relative">
+                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden lg:w-[469px] h-[260px] lg:h-[360px] bg-[url(../images/slider-2.png)] bg-cover flex flex-col items-center gap-6 justify-end">
+                                    <div
+                                        class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30 flex items-center justify-center">
                                         <button class="popup-btn">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="42"
                                                 viewBox="0 0 35 42" fill="none">
@@ -283,15 +289,16 @@
                                             <span class="sr-only">Play Icon</span>
                                         </button>
                                     </div>
-                                    <a href="#"
-                                        class="relative text-white trxt-[28px] lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
+
+                                    <h3
+                                        class="text-center relative text-white text-2xl lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
                                         Nebula Nexus Galactic Collisions VR
-                                    </a>
+                                    </h3>
                                 </div>
                                 <div
-                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden lg:w-[469px] h-[300px] lg:h-[540px] bg-[url(../images/slider-3.png)] bg-cover flex flex-col justify-between">
-                                    <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
-                                    <div class="flex justify-end relative">
+                                    class="swiper-slide relative p-8 rounded-2xl overflow-hidden lg:w-[469px] h-[260px] lg:h-[360px] bg-[url(../images/slider-3.png)] bg-cover flex flex-col items-center gap-6 justify-end">
+                                    <div
+                                        class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30 flex items-center justify-center">
                                         <button class="popup-btn">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="42"
                                                 viewBox="0 0 35 42" fill="none">
@@ -302,15 +309,18 @@
                                             <span class="sr-only">Play Icon</span>
                                         </button>
                                     </div>
-                                    <a href="#"
-                                        class="relative text-white trxt-[28px] lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
+
+                                    <h3
+                                        class="text-center relative text-white text-2xl lg:text-[32px] leading-normal lg:leading-normal font-semibold -tracking-[0.64px] font-Plus">
                                         Nebula Nexus Galactic Collisions VR
-                                    </a>
+                                    </h3>
                                 </div>
                             </div>
+
+
                             <div
-                                class="flex items-center bg-white drop-shadow-md rounded-full w-fit py-6 px-3.5 lg:absolute top-1/2 mx-auto lg:mx-0 lg:-translate-y-1/2 z-10 start-[445px]">
-                                <div class="designpeer-slide-prev">
+                                class="flex items-center bg-white drop-shadow-md rounded-full w-fit py-6 px-3.5 absolute top-1/2 -translate-y-1/2 z-10 end-10 lg:end-auto lg:start-[445px]">
+                                <button class="designpeer-slide-prev">
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -318,8 +328,8 @@
                                             stroke="#475467" stroke-width="1.5" stroke-miterlimit="10"
                                             stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
-                                </div>
-                                <div class="designpeer-slide-next">
+                                </button>
+                                <button class="designpeer-slide-next">
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -327,7 +337,7 @@
                                             stroke="#475467" stroke-width="1.5" stroke-miterlimit="10"
                                             stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
-                                </div>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -337,44 +347,43 @@
 
 
         <!-- Partners Section  -->
-        <section class="py-12 lg:py-16 px-6 lg:px-0">
-            <div class="container flex flex-wrap gap-6 justify-center">
-                <div class="w-[202px] h-[112px] flex items-center justify-center rounded-xl bg-cool-gray-50 group">
-                    <img src="assets/images/partners-1.png" class="mix-blend-luminosity group-hover:mix-blend-normal"
-                        width="73" height="64" alt="partners">
+        <div class="py-12 lg:py-16 px-5 lg:px-0">
+            <div class="container flex flex-wrap gap-3 lg:gap-6 justify-center">
+                <div class="partner-box">
+                    <img src="assets/images/partners-1.png" class="mix-blend-luminosity" width="73" height="64"
+                        alt="partners">
                 </div>
-                <div class="w-[202px] h-[112px] flex items-center justify-center rounded-xl bg-cool-gray-50 group">
-                    <img src="assets/images/partners-2.png" class="mix-blend-luminosity group-hover:mix-blend-normal"
-                        width="129" height="64" alt="partners">
+                <div class="partner-box">
+                    <img src="assets/images/partners-2.png" class="mix-blend-luminosity" width="129" height="64"
+                        alt="partners">
                 </div>
-                <div class="w-[202px] h-[112px] flex items-center justify-center rounded-xl bg-cool-gray-50 group">
-                    <img src="assets/images/partners-3.png" class="mix-blend-luminosity group-hover:mix-blend-normal"
-                        width="84" height="64" alt="partners">
+                <div class="partner-box">
+                    <img src="assets/images/partners-3.png" class="mix-blend-luminosity" width="84" height="64"
+                        alt="partners">
                 </div>
-                <div class="w-[202px] h-[112px] flex items-center justify-center rounded-xl bg-cool-gray-50 group">
-                    <img src="assets/images/partners-4.png" class="mix-blend-luminosity group-hover:mix-blend-normal"
-                        width="148" height="36" alt="partners">
+                <div class="partner-box">
+                    <img src="assets/images/partners-4.png" class="mix-blend-luminosity" width="148" height="36"
+                        alt="partners">
                 </div>
-                <div class="w-[202px] h-[112px] flex items-center justify-center rounded-xl bg-cool-gray-50 group">
-                    <img src="assets/images/partners-5.png" class="mix-blend-luminosity group-hover:mix-blend-normal"
-                        width="138" height="36" alt="partners">
+                <div class="partner-box">
+                    <img src="assets/images/partners-5.png" class="mix-blend-luminosity" width="138" height="36"
+                        alt="partners">
                 </div>
-                <div class="w-[202px] h-[112px] flex items-center justify-center rounded-xl bg-cool-gray-50 group">
-                    <img src="assets/images/partners-6.png" class="mix-blend-luminosity group-hover:mix-blend-normal"
-                        width="161" height="52" alt="partners">
+                <div class="partner-box">
+                    <img src="assets/images/partners-6.png" class="mix-blend-luminosity" width="161" height="52"
+                        alt="partners">
                 </div>
-                <div class="w-[202px] h-[112px] flex items-center justify-center rounded-xl bg-cool-gray-50 group">
-                    <img src="assets/images/partners-7.png" class="mix-blend-luminosity group-hover:mix-blend-normal"
-                        width="161" height="38" alt="partners">
+                <div class="partner-box">
+                    <img src="assets/images/partners-7.png" class="mix-blend-luminosity" width="161" height="38"
+                        alt="partners">
                 </div>
             </div>
-        </section>
+        </div>
         <!-- End Partners Section  -->
         <!-- =========================================================== -->
 
-
-        <section class="pt-24 -mb-8 lg:-mb-40 px-6 lg:px-0">
-            <div class="container flex flex-col gap-16">
+        <section class="pt-12 lg:pt-24 -mb-8 lg:-mb-40 px-6 lg:px-0">
+            <div class="container flex flex-col gap-10 lg:gap-16">
                 <div class="flex flex-col items-center gap-8">
                     <div class="flex flex-col items-center gap-5">
                         <h2
@@ -386,7 +395,7 @@
                             Schedule a chat and live demo with us.
                         </p>
                     </div>
-                    <button class="primary-btn">
+                    <button class="primary-btn demo-popup-btn">
                         Schedule a demo
                     </button>
                 </div>
@@ -399,7 +408,6 @@
         </section>
 
         <div class="popup ">
-
             <button type="button" class="popup-close-btn absolute top-12 end-12 lg:top-20 lg:end-20">
                 <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8 15L24.9706 31.9706" stroke="white" stroke-width="2" stroke-linecap="round"></path>
@@ -432,15 +440,63 @@
                 </div>
             </div>
         </div>
+        <div class="demo-popup active">
+            <button type="button" class="demo-popup-close-btn absolute top-12 end-12 lg:top-20 lg:end-20">
+                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 15L24.9706 31.9706" stroke="white" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M7.51562 31.4505L24.4862 14.4799" stroke="white" stroke-width="2" stroke-linecap="round">
+                    </path>
+                </svg>
+            </button>
+            <div class="p-10 lg:w-[450px] bg-white border border-cool-gray-300 rounded-xl flex flex-col gap-6">
+                <h2 class="text-cool-gray-900 text-2xl font-semibold">
+                    Book a demo
+                </h2>
+                <form >
+                    <div class="flex flex-col gap-6">
+                        <div class="flex flex-col gap-4">
+                            <div class="flex flex-col gap-2">
+                                <label for="name" class="text-sm text-cool-gray-700 leading-normal">
+                                    Your Name
+                                </label>
+                                <input type="text" id="name" name="name" placeholder="Your Name"
+                                    class="border border-cool-gray-300 rounded-lg p-3 focus:outline-none text-cool-gray-900 font-medium">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label for="email" class="text-sm text-cool-gray-700 leading-normal">
+                                    Email
+                                </label>
+                                <input type="email" id="email" name="email" placeholder="Email"
+                                    class="border border-cool-gray-300 rounded-lg p-3 focus:outline-none text-cool-gray-900 font-medium">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label for="companyname" class="text-sm text-cool-gray-700 leading-normal">
+                                    Company Name
+                                </label>
+                                <input type="text" id="companyname" name="companyname" placeholder="Company Name"
+                                    class="border border-cool-gray-300 rounded-lg p-3 focus:outline-none text-cool-gray-900 font-medium">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label for="jobtitle" class="text-sm text-cool-gray-700 leading-normal">
+                                    Job Title
+                                </label>
+                                <input type="text" id="jobtitle" name="jobtitle" placeholder="Job Title"
+                                    class="border border-cool-gray-300 rounded-lg p-3 focus:outline-none text-cool-gray-900 font-medium">
+                            </div>
+                        </div>
+                        <input type="submit" value="Submit" class="primary-btn font-bold">
+                    </div>
+                </form>
+            </div>
+        </div>
 
     </main>
     <!-- End Main Page Content  -->
     <!-- =========================================================== -->
 
-
     <footer class="py-10 lg:py-16 relative bg-white dark:bg-cool-gray-900">
-        <div class="container flex flex-col gap-6">
-            <div class="flex flex-col lg:flex-row gap-2 items-center justify-between">
+        <div class="container flex flex-col gap-4 lg:gap-6">
+            <div class="flex flex-col lg:flex-row gap-6 items-center justify-between">
                 <img src="assets/images/Logo.png" width="110" height="53" alt="LOGO">
 
                 <div class="flex items-center gap-6">
@@ -544,7 +600,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col lg:flex-row gap-2 items-center justify-between">
+            <div class="flex flex-col-reverse lg:flex-row gap-4 items-center justify-between">
                 <p class="text-cool-gray-500 text-sm leading-normal">
                     ©️ 2023 Enduvo
                 </p>
