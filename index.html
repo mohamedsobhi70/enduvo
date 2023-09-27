@@ -415,29 +415,11 @@
                     </path>
                 </svg>
             </button>
-            <div class="px-8 lg:w-3/4">
-                <div class="rounded-xl overflow-hidden relative">
-                    <video preload="auto" controls>
-                        <source src="assets/images/herovid.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <div class="play-overlay">
-                        <img src="assets/images/herovid.png" class="absolute top-0 left-0 w-full h-full object-cover"
-                            width="2558" height="1422" alt="sd">
-                        <div
-                            class="absolute w-full h-full top-0 left-0 bg-hero-vid-gradient flex justify-center items-center">
-                            <button type="button" aria-label="play Video" class="play-vid relative">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="57" height="68" viewBox="0 0 57 68"
-                                    fill="none">
-                                    <path
-                                        d="M53.1456 27.216C58.159 30.3494 58.159 37.6507 53.1456 40.784L12.24 66.35C6.9116 69.6803 3.29108e-07 65.8495 5.82827e-07 59.566L2.64748e-06 8.43398C2.9012e-06 2.1505 6.91161 -1.68024 12.24 1.65L53.1456 27.216Z"
-                                        fill="white" />
-                                </svg>
-                                <span class="sr-only">Play Icon</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+            <div class="px-8 w-full lg:w-3/4">
+                <iframe class="w-full" width="800" height="500" src="https://www.youtube.com/embed/H3drFJTQFX4?si=5P044CTdvsKCSm_O"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
         </div>
         <div class="demo-popup">
@@ -452,7 +434,7 @@
                 <h2 class="text-cool-gray-900 text-2xl font-semibold">
                     Book a demo
                 </h2>
-                <form >
+                <form>
                     <div class="flex flex-col gap-6">
                         <div class="flex flex-col gap-4">
                             <div class="flex flex-col gap-2">
