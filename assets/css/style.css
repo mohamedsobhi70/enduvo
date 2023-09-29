@@ -1420,6 +1420,10 @@ body {
     width: auto;
   }
 
+  .lg\:w-\[313px\] {
+    width: 313px;
+  }
+
   .lg\:shrink-0 {
     flex-shrink: 0;
   }
