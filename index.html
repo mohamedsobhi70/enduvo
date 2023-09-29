@@ -136,14 +136,15 @@
                         </div>
                         <div class="lg:col-span-5 flex flex-col relative">
 
-                            <img src="assets/images/pro-1.png" class="ms-9" width="313" height="236" alt="pro">
-                            <img src="assets/images/pro-2.png" class="ms-auto -mt-12 lg:-mt-20" width="313" height="236"
+                            <img src="assets/images/pro-1.png" class="w-[220px] lg:w-auto ms-9" width="313" height="236"
                                 alt="pro">
-                            <img src="assets/images/pro-3.png" class="-mt-12 lg:-mt-32" width="313" height="236"
-                                alt="pro">
+                            <img src="assets/images/pro-2.png" class="w-[220px] lg:w-auto ms-auto -mt-16 lg:-mt-20"
+                                width="313" height="236" alt="pro">
+                            <img src="assets/images/pro-3.png" class="w-[220px] lg:w-auto -mt-16 lg:-mt-32" width="313"
+                                height="236" alt="pro">
 
                             <img src="assets/images/line-shap.svg"
-                                class="absolute top-full lg:top-[95%] start-1/2 -translate-x-1/2 lg:translate-x-0 lg:start-[-100px]"
+                                class="absolute top-full lg:top-[95%] start-1/3 -translate-x-1/2 lg:translate-x-0 lg:start-[-100px] z-10"
                                 width="124" height="87" alt="line-shap">
                         </div>
                     </div>
@@ -202,7 +203,7 @@
                 <div class="container flex flex-col gap-16">
                     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
 
-                        <div class="col-span-7 lg:shrink-0 flex flex-col gap-4 px-6 lg:px-0">
+                        <div class="lg:col-span-7 lg:shrink-0 flex flex-col gap-4 px-6 lg:px-0">
                             <h2 class="text-[28px] lg:text-4xl text-cool-gray-900 dark:text-cool-gray-50 font-light">
                                 Learning through Collaboration
                             </h2>
@@ -219,26 +220,25 @@
                             </p>
                         </div>
 
-                        <div class="col-span-5 flex flex-col">
+                        <div
+                            class="popup-btn cursor-pointer lg:col-span-5 flex flex-col h-[260px] lg:h-[341px] lg:rounded-2xl overflow-hidden relative">
+                            <img src="assets/images/youtvid.png" class="w-full h-full object-cover" width="1277"
+                                height="716" alt="youtube video">
                             <div
-                                class="relative p-8 rounded-2xl overflow-hidden lg:w-[469px] h-[260px] lg:h-[341px] bg-[url(../images/youtvid.png)] bg-cover flex flex-col items-center gap-6 justify-end">
-                                <div
-                                    class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30 flex items-center justify-center">
-                                    <button class="popup-btn">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="42"
-                                            viewBox="0 0 35 42" fill="none">
-                                            <path
-                                                d="M32.9728 17.608C35.4795 19.1747 35.4795 22.8253 32.9728 24.392L6.12 41.175C3.45581 42.8401 1.64554e-07 40.9248 2.91414e-07 37.783L1.64677e-06 4.21699C1.77363e-06 1.07525 3.45581 -0.840122 6.12 0.824998L32.9728 17.608Z"
-                                                fill="white" />
-                                        </svg>
-                                        <span class="sr-only">Play Icon</span>
-                                    </button>
-                                </div>
+                                class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30 flex flex-col items-center justify-end p-8 gap-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="42" viewBox="0 0 35 42"
+                                    fill="none">
+                                    <path
+                                        d="M32.9728 17.608C35.4795 19.1747 35.4795 22.8253 32.9728 24.392L6.12 41.175C3.45581 42.8401 1.64554e-07 40.9248 2.91414e-07 37.783L1.64677e-06 4.21699C1.77363e-06 1.07525 3.45581 -0.840122 6.12 0.824998L32.9728 17.608Z"
+                                        fill="white" />
+                                </svg>
+                                <span class="sr-only">Play Icon</span>
                                 <h3
-                                    class="text-center relative text-white text-2xl lg:text-[28px] leading-normal lg:leading-normal font-semibold -tracking-[0.56px] font-Plus">
+                                    class="text-center text-white text-2xl lg:text-[28px] leading-normal lg:leading-normal font-semibold -tracking-[0.56px] font-Plus">
                                     The Only Immersive Digital Classroom for the USAF
                                 </h3>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -331,7 +331,7 @@
                     </svg>
                 </button>
                 <div class="px-8 w-full lg:w-3/4 flex justify-center">
-                    <iframe width="1000" height="562"
+                    <iframe width="1000" height="562" class="rounded-xl overflow-hidden"
                         src="https://www.youtube.com/embed/uM0SW30Pk_k?si=iLPrEnd4u1E1lbJF" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
