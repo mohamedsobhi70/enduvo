@@ -1150,7 +1150,7 @@ body {
   display: flex;
   width: 66.666667%;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 4rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
