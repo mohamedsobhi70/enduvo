@@ -40,14 +40,18 @@ if ($(".play-overlay").length > 0) {
 
 
 // ===================================================== 
+
 if ($(".popup").length > 0) {
+
     $(".popup-btn").on("click", function () {
-        $(".popup").addClass("active")
+        $(".popup").addClass("active");
+        let vido = $(".popup .video-container").attr("data-vid")
+        $(".popup .video-container").html(vido);
+
     })
     $(".popup-close-btn").on("click", function () {
-        $(".popup").removeClass("active")
-        let vid = $(".popup video");
-        vid.trigger('pause');
+        $(".popup .video-container").html('');
+        $(".popup").removeClass("active");
     })
 }
 
