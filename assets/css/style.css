@@ -719,16 +719,12 @@ video {
   width: 220px;
 }
 
-.w-\[90\%\] {
-  width: 90%;
+.w-\[94\%\] {
+  width: 94%;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-\[94\%\] {
-  width: 94%;
 }
 
 .-translate-x-1\/2 {
@@ -1358,6 +1354,14 @@ body {
 
   .lg\:h-\[341px\] {
     height: 341px;
+  }
+
+  .lg\:h-\[630px\] {
+    height: 630px;
+  }
+
+  .lg\:h-\[6\] {
+    height: 6;
   }
 
   .lg\:w-14 {
